@@ -1,0 +1,11 @@
+T2: XML
+
+analizador o parser  -> herramienta para acceder a la información
+	DOM: lectura, escritura (árbol de nodos)
+	SAX: lectura (eventos)
+
+NODOS
+	Document: documento XML (sólo hay 1, objeto principal) -> getEncoding(), getXMLVersion(), getDocumentElement() -> etiqueta raíz
+	Element: etiquetas -> getAttributes, getChildNotes()
+	Attr: atributos de las etiquetas (par - valor)
+	CharacterData: texto dentro de las etiquetas, comentarios
