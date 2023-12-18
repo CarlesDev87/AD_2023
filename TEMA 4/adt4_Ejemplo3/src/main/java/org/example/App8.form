@@ -41,7 +41,7 @@
           <text value="Vaciar Datos"/>
         </properties>
       </component>
-      <component id="83ca5" class="javax.swing.JTable" binding="jTable">
+      <component id="83ca5" class="javax.swing.JTable" binding="jtDatos">
         <constraints>
           <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>

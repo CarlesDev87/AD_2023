@@ -55,6 +55,8 @@ public class App7 extends JFrame{
     public static void main(String[] args) {
         new App7();
 
+
+
     }
 }
 
