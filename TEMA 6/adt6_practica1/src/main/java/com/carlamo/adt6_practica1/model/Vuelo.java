@@ -9,12 +9,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+
 public class Vuelo {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-
 
     @Column
     private String origen;
@@ -23,9 +23,9 @@ public class Vuelo {
     @Column
     private Double precio;
     @Column
-    private int numeroEscalas;
+    private int num_escalas;
     @Column
-    private String compañia;
+    private String compania;
 
 
 

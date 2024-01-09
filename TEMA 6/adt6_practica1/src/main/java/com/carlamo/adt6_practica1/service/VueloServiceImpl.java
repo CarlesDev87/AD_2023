@@ -2,6 +2,7 @@ package com.carlamo.adt6_practica1.service;
 
 import com.carlamo.adt6_practica1.model.Vuelo;
 import com.carlamo.adt6_practica1.repository.IVueloRepository;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -31,4 +32,11 @@ public class VueloServiceImpl implements IVueloService{
     public void eliminar(Integer id) {
         repo.deleteById(id);
     }
+
+    @Transactional
+    @Override
+    public List<Vuelo> borrarPorDestino(String destino) {
+        return repo.borrarPorDestino(destino);
+    }
+
 }

@@ -10,4 +10,6 @@ public interface IVueloService {
     Vuelo modificar(Vuelo v);
     void eliminar(Integer id);
 
+    List<Vuelo> borrarPorDestino(String destino);
+
 }
