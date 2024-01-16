@@ -17,6 +17,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class UsuarioResponseDto implements Serializable {
 
+
     @NotNull
     private String nombre;
 

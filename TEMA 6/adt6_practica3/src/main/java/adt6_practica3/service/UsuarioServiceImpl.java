@@ -28,6 +28,7 @@ public class UsuarioServiceImpl implements IUsuarioService {
         user.setId(id);
         user.setFechaCreacion(LocalDate.now());
         return repo.save(user);
+
     }
 
     @Override

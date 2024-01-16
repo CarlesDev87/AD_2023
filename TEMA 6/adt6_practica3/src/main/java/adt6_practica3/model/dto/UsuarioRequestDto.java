@@ -15,6 +15,7 @@ import java.io.Serializable;
 
 public class UsuarioRequestDto implements Serializable {
 
+
     @NotNull
     private String nombre;
     @Size(min = 6, max = 50, message = "Los apellidos deben tener entre 6 y 50 caracteres")

@@ -22,6 +22,7 @@ public class UsuarioController {
     private IUsuarioService service;
 
 
+
     @GetMapping("/{id}")
     public ResponseEntity<UsuarioResponseDto> busquedaConcreta(@PathVariable Integer id) {
         UsuarioResponseDto usuarioDTO = service.buscarPorId(id);

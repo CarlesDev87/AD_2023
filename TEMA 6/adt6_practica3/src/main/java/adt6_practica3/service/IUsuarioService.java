@@ -10,6 +10,7 @@ import java.util.List;
 
 public interface IUsuarioService {
 
+
     List<UsuarioResponseDto> buscarTodos();
 
     UsuarioResponseDto buscarPorId(Integer id);
