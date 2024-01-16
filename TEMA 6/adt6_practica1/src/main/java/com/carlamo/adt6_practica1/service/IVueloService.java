@@ -11,4 +11,6 @@ public interface IVueloService {
     void eliminar(Integer id);
     List<Vuelo> eliminarPorDestino(String destino);
 
+    List<Vuelo> borrarPorDestino(String destino);
+
 }
