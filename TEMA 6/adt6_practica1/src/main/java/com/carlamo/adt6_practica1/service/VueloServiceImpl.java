@@ -31,4 +31,8 @@ public class VueloServiceImpl implements IVueloService{
     public void eliminar(Integer id) {
         repo.deleteById(id);
     }
+
+    public List<Vuelo> eliminarPorDestino(String destino) {
+        return repo.eliminarPorDestino(destino);
+    }
 }

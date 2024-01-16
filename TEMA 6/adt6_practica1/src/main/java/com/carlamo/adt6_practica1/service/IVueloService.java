@@ -9,5 +9,6 @@ public interface IVueloService {
     Vuelo registrar(Vuelo v);
     Vuelo modificar(Vuelo v);
     void eliminar(Integer id);
+    List<Vuelo> eliminarPorDestino(String destino);
 
 }

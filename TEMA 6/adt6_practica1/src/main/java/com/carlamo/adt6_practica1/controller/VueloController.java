@@ -34,4 +34,9 @@ public class VueloController {
         service.eliminar(id);
     }
 
+    @GetMapping("/destino")
+    public List<Vuelo> eliminarPorDestino(@RequestParam(value ="destino" ) String destino) {
+        return service.eliminarPorDestino(destino);
+    }
+
 }
